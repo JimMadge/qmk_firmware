@@ -1,13 +1,12 @@
 #include QMK_KEYBOARD_H
 
-// LAYERS
-#define _QWERTY 0      // QWERTY layer
-#define _QW _QWERTY
+enum layer_number {
+    _QWERT = 0,
+    _FUNCTION,
+    _CONTROL,
+};
 
-#define _FUNCTION 1    // Function layer
 #define _FN _FUNCTION
-
-#define _CONTROL 2     // Control layer
 #define _CN _CONTROL
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
