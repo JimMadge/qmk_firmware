@@ -10,8 +10,6 @@
 #define _CONTROL 2     // Control layer
 #define _CN _CONTROL
 
-#define MO_FN MO(1)
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_60_iso(
