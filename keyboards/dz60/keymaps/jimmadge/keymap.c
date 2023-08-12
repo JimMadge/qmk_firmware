@@ -26,9 +26,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_FUNCTION] = LAYOUT_60_iso(
     //       2        3        4        5        6        7        8        9        10       11       12       13       14       15       16
     KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,
-    _______, KC_CALC, KC_UP,   _______, _______, _______, KC_INS,  KC_HOME, KC_UP,   KC_END,  KC_PGUP, KC_PSCR, KC_PAUS,
-    _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, KC_DEL,  KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, _______,
-    _______, _______, _______, KC_APP,  _______, _______, _______, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______,
+    _______, _______, KC_UP,   _______, _______, _______, _______, KC_HOME, KC_UP,   KC_END,  KC_PGUP, KC_PSCR, _______,
+    _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, _______,
+    _______, _______, _______, ______,  _______, _______, _______, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______,
     _______, _______, _______,                   TG(_CN),                            _______, _______, _______, _______
   ),
 
