@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 
 enum layer_number {
-    _QWERT = 0,
+    _QWERTY = 0,
     _FUNCTION,
     _CONTROL,
 };
